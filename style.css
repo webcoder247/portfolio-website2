@@ -1,5 +1,14 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+section {
+    height: 500px;
+}
+.top-banner {
+    background-image: url("images/top-banner.png"); 
+    background-repeat: no-repeat;
+    
 }
 .name-highlight {
     color: orange;
@@ -12,4 +21,13 @@ body {
 }
 .half-width img{
     width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightSalmon, tomato);
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
 }
